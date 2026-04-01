@@ -1,0 +1,14 @@
+# ── Core dependencies ────────────────────────────────────────────────────────
+ultralytics>=8.2.0        # YOLOv8 + ByteTrack tracker
+opencv-python>=4.9.0      # image / video I/O and drawing
+
+# ── Pulled in automatically by Ultralytics ───────────────────────────────────
+# torch, torchvision, numpy, pillow, pyyaml, scipy, lap (for ByteTrack)
+# Listed here so pip resolves them explicitly on fresh environments.
+torch>=2.1.0
+torchvision>=0.16.0
+numpy>=1.24.0
+pillow>=10.0.0
+pyyaml>=6.0
+scipy>=1.11.0
+lap>=0.4.0                # Linear Assignment Problem solver used by ByteTrack
